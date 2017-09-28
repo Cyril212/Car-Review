@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:fab="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <android.support.v7.widget.CardView
+        android:id="@+id/card_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:id="@+id/thumbnail"
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                android:layout_alignParentTop="true"
+                android:scaleType="centerCrop"
+                android:src="@drawable/Icon" />
+            <TextView
+                android:id="@+id/title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/thumbnail"
+                android:maxLines="3"
+                android:padding="8dp"
+                android:text="Title"
+                android:textColor="#222"
+                android:textStyle="bold"
+                android:textSize="22dp" />
+            <TextView
+                android:id="@+id/fulldescription"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/title"
+                android:padding="8dp"
+                android:text="The first-generation BMW 1 Series is a small family car produced by the German automaker BMW since 2004, when it replaced the BMW 3 Series Compact range as the smallest and cheapest vehicle (depending on the engine model) in the BMW range. As of May 2013, the 3-door hatchback (model code E81) and 5-door hatchback (E87) have been superseded by the F20 and F21 models; the 2-door coupe (E82) and the two-door convertible (E88) have been superseded by the new BMW 2 Series. \n \n The 2nd generation BMW 1 Series range comprises 3-door hatchback (model code F21) and 5-door hatchback (F20) models. Like its E87 predecessor, it uses a longitudinally-mounted engine, aluminum multi-link suspension and a rear-wheel drive chassis (however some models are available with all-wheel drive).  The F20 5-door hatchback was unveiled in 2011 Frankfurt Motor Show. and released later in 2011.  The M135i was named 'The Sports Car of the Year 2012' by Top Gear Magazine.  The coupé and convertible of the F20 will be called the 2 Series."
+                android:textColor="#666"
+                android:textSize="14dp" />
+        </RelativeLayout>
+    </android.support.v7.widget.CardView>
+</FrameLayout>

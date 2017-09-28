@@ -1,0 +1,6 @@
+namespace CarReview
+{
+	class Picasso
+	{
+	}
+}

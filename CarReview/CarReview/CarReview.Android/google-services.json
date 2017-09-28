@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "225327988110",
+    "firebase_url": "https://database-6c8c1.firebaseio.com",
+    "project_id": "database-6c8c1",
+    "storage_bucket": "database-6c8c1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:225327988110:android:6c2f5e168daae110",
+        "android_client_info": {
+          "package_name": "CarReview.CarReview"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "225327988110-jeso9i1pk6otsd874j4sbhg8v91sr8qs.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "CarReview.CarReview",
+            "certificate_hash": "15bf95ec9e837ddc3d307259326c58fd1ad7cd54"
+          }
+        },
+        {
+          "client_id": "225327988110-q4u8mn8q1pp4igcmudq7418d9cracink.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBayXMzXjKXxCPplePuproNVW-rtPLcmic"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "225327988110-q4u8mn8q1pp4igcmudq7418d9cracink.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

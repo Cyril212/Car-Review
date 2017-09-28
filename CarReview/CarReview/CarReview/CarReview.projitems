@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <MSBuildAllProjects>$(MSBuildAllProjects);$(MSBuildThisFileFullPath)</MSBuildAllProjects>
+    <HasSharedItems>true</HasSharedItems>
+    <SharedGUID>b509edb8-a7a6-49fa-acec-f2beed441399</SharedGUID>
+  </PropertyGroup>
+  <PropertyGroup Label="Configuration">
+    <Import_RootNamespace>CarReview</Import_RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="$(MSBuildThisFileDirectory)MyActionBarDrawerToggle.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Info.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)MyListViewAdapter.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)TabsFragmentPagerAdapter.cs" />
+  </ItemGroup>
+</Project>
